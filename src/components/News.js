@@ -53,6 +53,7 @@ export default class News extends Component {
         articles: parsedData.articles,
         loading: false
       })
+
     }
     
   }
