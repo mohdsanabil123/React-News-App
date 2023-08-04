@@ -25,10 +25,6 @@ const router = createBrowserRouter([
         element: <News key='entertainment' pageSize={8} country='in' category='entertainment' API_KEY='4404fbc57aa147dda7f5b2b1cbae6a1e'/>
       },
       {
-        path: '/general',
-        element: <News key='general' pageSize={8} country='in' category='general' API_KEY='4404fbc57aa147dda7f5b2b1cbae6a1e'/>
-      },
-      {
         path: '/health',
         element: <News key='health' pageSize={8} country='in' category='health' API_KEY='4404fbc57aa147dda7f5b2b1cbae6a1e'/>
       },
