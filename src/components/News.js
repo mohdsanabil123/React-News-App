@@ -54,7 +54,7 @@ const News = (props) => {
 
   return (
     <>
-      <h2 className='text-center' style={{ marginTop: "70px", marginBottom: "30px" }}>MS News - Top Headlines from {props.category}</h2>
+      <h2 className='text-center' style={{ marginTop: "70px", marginBottom: "30px" }}>SnapNews - Top Headlines from {props.category}</h2>
       {loading && <Shimmer />}
       <InfiniteScroll
         dataLength={articles.length}
